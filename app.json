@@ -23,6 +23,7 @@
       },
       "package": "com.harinand.quriobot",
       "permissions": [
+        "android.permission.RECORD_AUDIO",
         "android.permission.RECORD_AUDIO"
       ]
     },
@@ -44,6 +45,12 @@
       "eas": {
         "projectId": "964f5536-7901-4081-aa1e-68183fd94b0f"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/964f5536-7901-4081-aa1e-68183fd94b0f"
     }
   }
 }
